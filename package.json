@@ -1,0 +1,13 @@
+{
+  "name": "employees",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": {},
+  "author": "tamanishi <tamanishi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "cheerio-httpcli": "^0.6.10",
+    "dotenv": "^4.0.0"
+  }
+}
