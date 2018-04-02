@@ -19,7 +19,7 @@ cheerio.fetch(loginURL)
 
   result.$('form[name=form1]').submit(loginInfo, function (err, $, res, body) {
     cheerio.fetch(mailURL, function (err, $, res, body) {
-      $('td[width="125"]').children('font:not(:has(a))').each( function (idx) {
+      $('td[width="100"]').children('font:not(:has(a))').each( function (idx) {
         if (parseInt($(this).text().charCodeAt(0), 10) === 160) {
           return;
         } else {
